@@ -2,7 +2,6 @@ from selenium import webdriver
 import pandas as pd
 from selenium.webdriver.common.by import By
 
-DRIVER_PATH = "/home/sila/Downloads/chromedriver-linux64(1)/chromedriver-linux64"
 const_row = ['', '', '', '', '', '']
 
 options=webdriver.ChromeOptions()
